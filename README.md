@@ -1,5 +1,7 @@
 # 协同过滤——基础知识
->《集体智慧编程》书籍第二章协同过滤
+
+《集体智慧编程》书籍第二章协同过滤
+
 1.相似度计算：欧几里得距离、皮尔逊距离
 2.topMatches(prefs,person,n=5,similarity=sim_pearson)，做基于人/商品的相似度排序，取top N
 3.getRecommendations(prefs, person, similarity=sim_pearson)，做基于人的推荐，CF原理可见 P15 页表格
