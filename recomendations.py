@@ -158,7 +158,7 @@ def loadMovieLens(path='E:/MovieLens/ml-latest-small/ml-latest-small'):
     for line in open(path+'/ratings.csv', encoding='utf8'):
         (userId,movieId,rating,timestamp) = line.strip().split(',')
         prefs.setdefault(userId, {})
-        prefs[userId][movies[movieId]] = float(rating)      #这里的类型转换存在一点问题
+        prefs[userId][movies[movieId]] = float(rating)      #这里的类型转换存在一点问题,解决了，需要把首行删掉就ok
     return prefs
 
 prefs = loadMovieLens()
