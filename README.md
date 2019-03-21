@@ -12,3 +12,6 @@
 * 主页推荐、图书相关推荐
 * 将关系型数据库——>图数据库，构建网络
 * 定义规则，进行图查询，py2neo连接
+## Surprise库
+* https://surprise.readthedocs.io/en/stable/getting_started.html
+* 只要准备好数据，简单操作，就可实现多种协同过滤
